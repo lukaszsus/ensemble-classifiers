@@ -1,0 +1,7 @@
+dataset,classifier,algorithm,acc_mean,prec_mean,rec_mean,f1_mean
+diabetes,AdaBoost,SAMME,0.7,0.67,0.67,0.67
+diabetes,AdaBoost,SAMME.R,0.699,0.67,0.671,0.67
+glass,AdaBoost,SAMME,0.669,0.629,0.624,0.624
+glass,AdaBoost,SAMME.R,0.668,0.633,0.628,0.627
+wine,AdaBoost,SAMME,0.904,0.905,0.906,0.905
+wine,AdaBoost,SAMME.R,0.907,0.908,0.91,0.908

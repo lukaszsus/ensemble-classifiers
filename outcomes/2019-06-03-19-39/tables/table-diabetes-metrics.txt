@@ -1,0 +1,64 @@
+\begin{tabular}{lllrrrr}
+\toprule
+   classifier &          param & param value &  acc\_mean &  prec\_mean &  rec\_mean &  f1\_mean \\
+\midrule
+     AdaBoost &      algorithm &       SAMME &     0,700 &      0,670 &     0,670 &    0,670 \\
+     AdaBoost &      algorithm &     SAMME.R &     0,699 &      0,670 &     0,671 &    0,670 \\
+     AdaBoost &  learning\_rate &         0.5 &     0,699 &      0,669 &     0,669 &    0,669 \\
+     AdaBoost &  learning\_rate &         1.0 &     0,701 &      0,672 &     0,672 &    0,672 \\
+     AdaBoost &  learning\_rate &         2.0 &     0,701 &      0,671 &     0,672 &    0,672 \\
+     AdaBoost &   n\_estimators &           1 &     0,699 &      0,670 &     0,670 &    0,670 \\
+     AdaBoost &   n\_estimators &          10 &     0,700 &      0,670 &     0,670 &    0,670 \\
+     AdaBoost &   n\_estimators &         100 &     0,697 &      0,667 &     0,668 &    0,668 \\
+     AdaBoost &   n\_estimators &          15 &     0,701 &      0,671 &     0,672 &    0,672 \\
+     AdaBoost &   n\_estimators &          20 &     0,698 &      0,668 &     0,669 &    0,668 \\
+     AdaBoost &   n\_estimators &         200 &     0,701 &      0,671 &     0,671 &    0,671 \\
+     AdaBoost &   n\_estimators &          25 &     0,701 &      0,672 &     0,672 &    0,672 \\
+     AdaBoost &   n\_estimators &         300 &     0,700 &      0,670 &     0,670 &    0,670 \\
+     AdaBoost &   n\_estimators &         400 &     0,699 &      0,670 &     0,670 &    0,670 \\
+     AdaBoost &   n\_estimators &           5 &     0,701 &      0,671 &     0,671 &    0,671 \\
+     AdaBoost &   n\_estimators &          50 &     0,698 &      0,669 &     0,670 &    0,669 \\
+     AdaBoost &   n\_estimators &         500 &     0,703 &      0,673 &     0,674 &    0,673 \\
+      Bagging &      bootstrap &       False &     0,703 &      0,672 &     0,669 &    0,670 \\
+      Bagging &      bootstrap &        True &     0,742 &      0,717 &     0,694 &    0,702 \\
+      Bagging &   max\_features &         0.2 &     0,670 &      0,629 &     0,567 &    0,551 \\
+      Bagging &   max\_features &         0.5 &     0,718 &      0,693 &     0,652 &    0,659 \\
+      Bagging &   max\_features &         0.9 &     0,738 &      0,713 &     0,687 &    0,695 \\
+      Bagging &   max\_features &         1.0 &     0,742 &      0,718 &     0,695 &    0,702 \\
+      Bagging &    max\_samples &         0.2 &     0,746 &      0,724 &     0,692 &    0,701 \\
+      Bagging &    max\_samples &         0.5 &     0,745 &      0,722 &     0,696 &    0,704 \\
+      Bagging &    max\_samples &         0.9 &     0,744 &      0,720 &     0,696 &    0,703 \\
+      Bagging &    max\_samples &         1.0 &     0,742 &      0,718 &     0,694 &    0,702 \\
+      Bagging &   n\_estimators &           1 &     0,688 &      0,658 &     0,658 &    0,657 \\
+      Bagging &   n\_estimators &          10 &     0,743 &      0,719 &     0,695 &    0,703 \\
+      Bagging &   n\_estimators &         100 &     0,759 &      0,736 &     0,724 &    0,728 \\
+      Bagging &   n\_estimators &          15 &     0,747 &      0,721 &     0,712 &    0,716 \\
+      Bagging &   n\_estimators &          20 &     0,751 &      0,727 &     0,710 &    0,716 \\
+      Bagging &   n\_estimators &         200 &     0,760 &      0,736 &     0,724 &    0,729 \\
+      Bagging &   n\_estimators &          25 &     0,753 &      0,729 &     0,718 &    0,722 \\
+      Bagging &   n\_estimators &         300 &     0,760 &      0,737 &     0,725 &    0,730 \\
+      Bagging &   n\_estimators &         400 &     0,761 &      0,737 &     0,725 &    0,730 \\
+      Bagging &   n\_estimators &           5 &     0,732 &      0,705 &     0,699 &    0,701 \\
+      Bagging &   n\_estimators &          50 &     0,757 &      0,733 &     0,720 &    0,725 \\
+      Bagging &   n\_estimators &         500 &     0,760 &      0,736 &     0,724 &    0,729 \\
+ DecisionTree &         params &     default &     0,700 &      0,670 &     0,671 &    0,670 \\
+ RandomForest &      bootstrap &       False &     0,743 &      0,718 &     0,695 &    0,702 \\
+ RandomForest &      bootstrap &        True &     0,744 &      0,721 &     0,692 &    0,700 \\
+ RandomForest &   max\_features &         0.2 &     0,730 &      0,706 &     0,669 &    0,677 \\
+ RandomForest &   max\_features &         0.5 &     0,746 &      0,722 &     0,697 &    0,705 \\
+ RandomForest &   max\_features &         0.9 &     0,743 &      0,719 &     0,695 &    0,703 \\
+ RandomForest &   max\_features &         1.0 &     0,744 &      0,720 &     0,697 &    0,704 \\
+ RandomForest &   n\_estimators &           1 &     0,681 &      0,649 &     0,649 &    0,649 \\
+ RandomForest &   n\_estimators &          10 &     0,742 &      0,720 &     0,690 &    0,698 \\
+ RandomForest &   n\_estimators &         100 &     0,761 &      0,739 &     0,720 &    0,727 \\
+ RandomForest &   n\_estimators &          15 &     0,747 &      0,722 &     0,708 &    0,714 \\
+ RandomForest &   n\_estimators &          20 &     0,753 &      0,731 &     0,706 &    0,714 \\
+ RandomForest &   n\_estimators &         200 &     0,762 &      0,740 &     0,722 &    0,728 \\
+ RandomForest &   n\_estimators &          25 &     0,755 &      0,731 &     0,716 &    0,722 \\
+ RandomForest &   n\_estimators &         300 &     0,764 &      0,742 &     0,723 &    0,730 \\
+ RandomForest &   n\_estimators &         400 &     0,762 &      0,740 &     0,722 &    0,729 \\
+ RandomForest &   n\_estimators &           5 &     0,728 &      0,700 &     0,690 &    0,694 \\
+ RandomForest &   n\_estimators &          50 &     0,760 &      0,738 &     0,717 &    0,724 \\
+ RandomForest &   n\_estimators &         500 &     0,762 &      0,740 &     0,722 &    0,729 \\
+\bottomrule
+\end{tabular}

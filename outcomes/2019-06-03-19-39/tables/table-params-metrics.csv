@@ -1,0 +1,4 @@
+dataset,classifier,params,acc_mean,prec_mean,rec_mean,f1_mean
+diabetes,DecisionTree,default,0.7,0.67,0.671,0.67
+glass,DecisionTree,default,0.674,0.638,0.633,0.633
+wine,DecisionTree,default,0.905,0.906,0.908,0.907

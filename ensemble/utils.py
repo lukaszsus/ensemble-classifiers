@@ -32,3 +32,11 @@ def count_one_over_sqrt_order_dist(distances):
 def create_dir_if_not_exists(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
+
+
+def is_number(s: str):
+    return s.replace('.', '', 1).isdigit()
+
+
+def is_int(s: str):
+    return s.isdigit()

@@ -1,0 +1,15 @@
+\begin{tabular}{llrrrrr}
+\toprule
+  dataset & classifier &  learning\_rate &  acc\_mean &  prec\_mean &  rec\_mean &  f1\_mean \\
+\midrule
+ diabetes &   AdaBoost &            0,5 &     0,699 &      0,669 &     0,669 &    0,669 \\
+ diabetes &   AdaBoost &            1,0 &     0,701 &      0,672 &     0,672 &    0,672 \\
+ diabetes &   AdaBoost &            2,0 &     0,701 &      0,671 &     0,672 &    0,672 \\
+    glass &   AdaBoost &            0,5 &     0,674 &      0,640 &     0,636 &    0,634 \\
+    glass &   AdaBoost &            1,0 &     0,675 &      0,641 &     0,636 &    0,635 \\
+    glass &   AdaBoost &            2,0 &     0,675 &      0,641 &     0,634 &    0,634 \\
+     wine &   AdaBoost &            0,5 &     0,906 &      0,908 &     0,908 &    0,908 \\
+     wine &   AdaBoost &            1,0 &     0,906 &      0,907 &     0,908 &    0,907 \\
+     wine &   AdaBoost &            2,0 &     0,907 &      0,908 &     0,909 &    0,908 \\
+\bottomrule
+\end{tabular}

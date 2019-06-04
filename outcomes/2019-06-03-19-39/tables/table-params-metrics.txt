@@ -1,0 +1,9 @@
+\begin{tabular}{lllrrrr}
+\toprule
+  dataset &    classifier &   params &  acc\_mean &  prec\_mean &  rec\_mean &  f1\_mean \\
+\midrule
+ diabetes &  DecisionTree &  default &     0,700 &      0,670 &     0,671 &    0,670 \\
+    glass &  DecisionTree &  default &     0,674 &      0,638 &     0,633 &    0,633 \\
+     wine &  DecisionTree &  default &     0,905 &      0,906 &     0,908 &    0,907 \\
+\bottomrule
+\end{tabular}

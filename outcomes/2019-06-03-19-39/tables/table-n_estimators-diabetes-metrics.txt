@@ -1,0 +1,54 @@
+\begin{tabular}{llrrrrr}
+\toprule
+  dataset &    classifier &  n\_estimators &  acc\_mean &  prec\_mean &  rec\_mean &  f1\_mean \\
+\midrule
+ diabetes &      AdaBoost &             1 &     0,699 &      0,670 &     0,670 &    0,670 \\
+ diabetes &      AdaBoost &             5 &     0,701 &      0,671 &     0,671 &    0,671 \\
+ diabetes &      AdaBoost &            10 &     0,700 &      0,670 &     0,670 &    0,670 \\
+ diabetes &      AdaBoost &            15 &     0,701 &      0,671 &     0,672 &    0,672 \\
+ diabetes &      AdaBoost &            20 &     0,698 &      0,668 &     0,669 &    0,668 \\
+ diabetes &      AdaBoost &            25 &     0,701 &      0,672 &     0,672 &    0,672 \\
+ diabetes &      AdaBoost &            50 &     0,698 &      0,669 &     0,670 &    0,669 \\
+ diabetes &      AdaBoost &           100 &     0,697 &      0,667 &     0,668 &    0,668 \\
+ diabetes &      AdaBoost &           200 &     0,701 &      0,671 &     0,671 &    0,671 \\
+ diabetes &      AdaBoost &           300 &     0,700 &      0,670 &     0,670 &    0,670 \\
+ diabetes &      AdaBoost &           400 &     0,699 &      0,670 &     0,670 &    0,670 \\
+ diabetes &      AdaBoost &           500 &     0,703 &      0,673 &     0,674 &    0,673 \\
+ diabetes &       Bagging &             1 &     0,688 &      0,658 &     0,658 &    0,657 \\
+ diabetes &       Bagging &             5 &     0,732 &      0,705 &     0,699 &    0,701 \\
+ diabetes &       Bagging &            10 &     0,743 &      0,719 &     0,695 &    0,703 \\
+ diabetes &       Bagging &            15 &     0,747 &      0,721 &     0,712 &    0,716 \\
+ diabetes &       Bagging &            20 &     0,751 &      0,727 &     0,710 &    0,716 \\
+ diabetes &       Bagging &            25 &     0,753 &      0,729 &     0,718 &    0,722 \\
+ diabetes &       Bagging &            50 &     0,757 &      0,733 &     0,720 &    0,725 \\
+ diabetes &       Bagging &           100 &     0,759 &      0,736 &     0,724 &    0,728 \\
+ diabetes &       Bagging &           200 &     0,760 &      0,736 &     0,724 &    0,729 \\
+ diabetes &       Bagging &           300 &     0,760 &      0,737 &     0,725 &    0,730 \\
+ diabetes &       Bagging &           400 &     0,761 &      0,737 &     0,725 &    0,730 \\
+ diabetes &       Bagging &           500 &     0,760 &      0,736 &     0,724 &    0,729 \\
+ diabetes &  DecisionTree &             1 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &             5 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &            10 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &            15 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &            20 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &            25 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &            50 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &           100 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &           200 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &           300 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &           400 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  DecisionTree &           500 &     0,700 &      0,670 &     0,671 &    0,670 \\
+ diabetes &  RandomForest &             1 &     0,681 &      0,649 &     0,649 &    0,649 \\
+ diabetes &  RandomForest &             5 &     0,728 &      0,700 &     0,690 &    0,694 \\
+ diabetes &  RandomForest &            10 &     0,742 &      0,720 &     0,690 &    0,698 \\
+ diabetes &  RandomForest &            15 &     0,747 &      0,722 &     0,708 &    0,714 \\
+ diabetes &  RandomForest &            20 &     0,753 &      0,731 &     0,706 &    0,714 \\
+ diabetes &  RandomForest &            25 &     0,755 &      0,731 &     0,716 &    0,722 \\
+ diabetes &  RandomForest &            50 &     0,760 &      0,738 &     0,717 &    0,724 \\
+ diabetes &  RandomForest &           100 &     0,761 &      0,739 &     0,720 &    0,727 \\
+ diabetes &  RandomForest &           200 &     0,762 &      0,740 &     0,722 &    0,728 \\
+ diabetes &  RandomForest &           300 &     0,764 &      0,742 &     0,723 &    0,730 \\
+ diabetes &  RandomForest &           400 &     0,762 &      0,740 &     0,722 &    0,729 \\
+ diabetes &  RandomForest &           500 &     0,762 &      0,740 &     0,722 &    0,729 \\
+\bottomrule
+\end{tabular}
